@@ -1,6 +1,8 @@
 # KTH_IK2215_InternetServiceProvider
 This is the ISP project in KTH IK2215 Advanced Internetworking. 
-I put the project introduction file and project configuration instructions in the Intro folder.
+I put the project introduction file and project configuration instructions in the Intro folder. I am in project group113 with Tangyujun Han. Following the description in the intro and report, this project allows you to learn how to build an ISP service in the virtual world. 
+
+If you like this project, any stars will help, thanks!
 
 The main objectives of the project assignment are to:
 
