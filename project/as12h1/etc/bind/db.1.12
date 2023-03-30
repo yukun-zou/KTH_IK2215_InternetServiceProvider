@@ -1,0 +1,21 @@
+$TTL	604800
+@	IN	SOA	ns.isp12.lab root.isp12.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@		IN	NS	ns.isp12.lab.
+
+1.1	IN      PTR     gw.isp12.lab.
+2.1	IN      PTR     ns.isp12.lab.
+
+
+1.2	IN      PTR     gw-client.isp12.lab.
+
+11.2	IN      PTR     client1.isp12.lab.
+12.2	IN      PTR     client2.isp12.lab.
+13.2	IN      PTR     client3.isp12.lab.
+14.2	IN      PTR     client4.isp12.lab.
+15.2	IN      PTR     client5.isp12.lab.

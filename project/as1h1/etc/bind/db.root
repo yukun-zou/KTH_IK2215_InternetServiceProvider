@@ -1,0 +1,14 @@
+$TTL   600
+@               IN	SOA	ROOT-SERVER. root.ROOT-SERVER. (
+                          1 	; serial
+                        600	; refresh
+                        600	; retry
+                        600	; expire
+                          0 )	; negative cache ttl
+
+@               IN      NS      ROOT-SERVER.
+ROOT-SERVER.    IN      A       1.0.1.2
+
+lab.            IN      NS      ns.lab.
+ns.lab.     	IN      A       2.0.1.2
+

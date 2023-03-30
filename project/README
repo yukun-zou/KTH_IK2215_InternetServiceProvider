@@ -1,0 +1,51 @@
+PROJECT CONFIGURATION
+------------------------
+You must do the following before you launch the project on Kathara:
+
+1. Replace 11 in the ASN file to your own AS number, e.g., 100 if your are AS100.
+2. Edit device and link configuration of your AS at the end of the lab.conf file.
+3. Change BGP peering of AS1 and AS21 from AS11 to your ASN in the files below:
+   - as1r1/etc/quagga/bgpd.conf 
+   - as21r1/etc/quagga/bgpd.conf
+4. Add configuration folders and startup scripts for your devices
+   - For example, r1 should be: asXr1 and asXr1.startup where X is your ASN
+   - Similarly, asXs1, asXc1 for s1 and c1, respectively.
+   - You must add folder and startup script for all device including clients
+     even though there is no extra config (you simply have an empty folder)
+
+START KATHARA
+------------------------
+Kathara launches one terminal per device when it starts.
+With our project configuration, you will see many terminals, which can be overwhelming.
+To avoid this, you may start kathara without any terminal and connect to each device manually. 
+In this way, you don't have to deal with terminals belonging to other ASes.
+To start kathara without terminal, run:
+  kathara lstart --noterminals
+
+DHCP CLIENT CAVEAT
+------------------------
+DHCP client cannot update /etc/resolv.conf.
+Nevertheless, it should create a tentative file with a similar name below:
+  /etc/resolv.conf.dhclient-new.XX
+where XX is number that changes over time
+You will have to copy it manually with a command:
+  cp /etc/resolv.conf.dhclient-new.XX /etc/resolv.conf
+You need to do this, otherwise DNS will not work correctly.
+
+INTERNET SERVICE STARTUP SCRIPTS
+------------------------
+When you add Internet services to the startup configuration,
+you must use the commands based on the startup scripts in /etc/init.d.
+For example, you can run DNS service with the command:
+  /etc/init.d/bind start
+You may get penalty if you use other methods to run the services.
+For DHCP client, you must use the /sbin/dhclient command, as shown below:
+  /sbin/dhclient <INTERFACE>
+
+HOST IP ADDRESS IN STARTUP SCRIPTS
+------------------------
+You must use the ip command to configure IP address and default route
+in the startup script.
+ifconfig and route commands are deprecated and considered as wrong.
+You may also be penalized if you use them.
+

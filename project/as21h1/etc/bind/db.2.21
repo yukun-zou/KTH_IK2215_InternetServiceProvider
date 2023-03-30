@@ -1,0 +1,21 @@
+$TTL	604800
+@	IN	SOA	ns.isp21.lab root.isp21.lab. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@		IN	NS	ns.isp21.lab.
+
+1.1	IN      PTR     gw.isp21.lab.
+2.1	IN      PTR     ns.isp21.lab.
+
+
+1.2	IN      PTR     gw-client.isp21.lab.
+
+11.2	IN      PTR     client1.isp21.lab.
+12.2	IN      PTR     client2.isp21.lab.
+13.2	IN      PTR     client3.isp21.lab.
+14.2	IN      PTR     client4.isp21.lab.
+15.2	IN      PTR     client5.isp21.lab.

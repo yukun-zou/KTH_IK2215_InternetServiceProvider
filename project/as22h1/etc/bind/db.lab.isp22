@@ -1,0 +1,23 @@
+$TTL   60000
+@               IN      SOA     ns.isp22.lab. root.isp22.lab. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      ns.isp22.lab.
+ns		    IN      A       2.22.1.2
+www		    IN	    CNAME   ns
+
+gw		    IN      A       2.22.1.1
+
+
+gw-client	    IN      A       2.22.2.1
+
+client1	    	    IN      A       2.22.2.11
+client2	    	    IN      A       2.22.2.12
+client3	    	    IN      A       2.22.2.13
+client4	    	    IN      A       2.22.2.14
+client5	    	    IN      A       2.22.2.15
+

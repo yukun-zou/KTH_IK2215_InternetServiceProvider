@@ -1,0 +1,6 @@
+# CONF_LABCONF
+r1
+r2
+r3
+r4
+ERROR: lab.conf has a router with no redundant path

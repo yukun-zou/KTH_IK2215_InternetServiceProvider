@@ -1,0 +1,4 @@
+/etc/init.d/zebra start
+/etc/init.d/isc-dhcp-relay start
+ip link add dummy0 type dummy
+ip link set dummy0 up

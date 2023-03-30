@@ -1,0 +1,341 @@
+$TTL   60000
+@               IN      SOA     ns.lab.    root.ns.lab. (
+                        2006031201 ; serial
+                        28800 ; refresh
+                        14400 ; retry
+                        3600000 ; expire
+                        0 ; negative cache ttl
+                        )
+@                   IN      NS      ns.lab.
+ns.lab.	            IN      A       2.0.1.2
+
+isp1.lab.	    IN      NS      ns.isp1.lab.
+ns.isp1.lab.	    IN      A       1.0.1.3
+
+isp2.lab.	    IN      NS      ns.isp2.lab.
+ns.isp2.lab.	    IN      A       2.0.1.3
+
+isp3.lab.	    IN      NS      ns.isp3.lab.
+ns.isp3.lab.	    IN      A       3.0.1.3
+
+isp4.lab.	    IN      NS      ns.isp4.lab.
+ns.isp4.lab.	    IN      A       4.0.1.3
+
+isp5.lab.	    IN      NS      ns.isp5.lab.
+ns.isp5.lab.	    IN      A       5.0.1.3
+
+isp11.lab.	    IN      NS      ns.isp11.lab.
+ns.isp11.lab.	    IN      A       1.11.1.2
+
+isp12.lab.	    IN      NS      ns.isp12.lab.
+ns.isp12.lab.	    IN      A       1.12.1.2
+
+isp21.lab.	    IN      NS      ns.isp21.lab.
+ns.isp21.lab.	    IN      A       2.21.1.2
+
+isp22.lab.	    IN      NS      ns.isp22.lab.
+ns.isp22.lab.	    IN      A       2.22.1.2
+
+isp100.lab.	    IN      NS      ns.isp100.lab.
+ns.isp100.lab.	    IN      A       1.100.1.2
+
+isp101.lab.         IN      NS      ns.isp101.lab.
+ns.isp101.lab.      IN      A       1.101.1.2
+
+isp102.lab.         IN      NS      ns.isp102.lab.
+ns.isp102.lab.      IN      A       1.102.1.2
+
+isp103.lab.         IN      NS      ns.isp103.lab.
+ns.isp103.lab.      IN      A       1.103.1.2
+
+isp104.lab.         IN      NS      ns.isp104.lab.
+ns.isp104.lab.      IN      A       1.104.1.2
+
+isp105.lab.         IN      NS      ns.isp105.lab.
+ns.isp105.lab.      IN      A       1.105.1.2
+
+isp106.lab.         IN      NS      ns.isp106.lab.
+ns.isp106.lab.      IN      A       1.106.1.2
+
+isp107.lab.         IN      NS      ns.isp107.lab.
+ns.isp107.lab.      IN      A       1.107.1.2
+
+isp108.lab.         IN      NS      ns.isp108.lab.
+ns.isp108.lab.      IN      A       1.108.1.2
+
+isp109.lab.         IN      NS      ns.isp109.lab.
+ns.isp109.lab.      IN      A       1.109.1.2
+
+isp110.lab.         IN      NS      ns.isp110.lab.
+ns.isp110.lab.      IN      A       1.110.1.2
+
+isp111.lab.         IN      NS      ns.isp111.lab.
+ns.isp111.lab.      IN      A       1.111.1.2
+
+isp112.lab.         IN      NS      ns.isp112.lab.
+ns.isp112.lab.      IN      A       1.112.1.2
+
+isp113.lab.         IN      NS      ns.isp113.lab.
+ns.isp113.lab.      IN      A       1.113.1.2
+
+isp114.lab.         IN      NS      ns.isp114.lab.
+ns.isp114.lab.      IN      A       1.114.1.2
+
+isp115.lab.         IN      NS      ns.isp115.lab.
+ns.isp115.lab.      IN      A       1.115.1.2
+
+isp116.lab.         IN      NS      ns.isp116.lab.
+ns.isp116.lab.      IN      A       1.116.1.2
+
+isp117.lab.         IN      NS      ns.isp117.lab.
+ns.isp117.lab.      IN      A       1.117.1.2
+
+isp118.lab.         IN      NS      ns.isp118.lab.
+ns.isp118.lab.      IN      A       1.118.1.2
+
+isp119.lab.         IN      NS      ns.isp119.lab.
+ns.isp119.lab.      IN      A       1.119.1.2
+
+isp120.lab.         IN      NS      ns.isp120.lab.
+ns.isp120.lab.      IN      A       1.120.1.2
+
+isp121.lab.         IN      NS      ns.isp121.lab.
+ns.isp121.lab.      IN      A       1.121.1.2
+
+isp122.lab.         IN      NS      ns.isp122.lab.
+ns.isp122.lab.      IN      A       1.122.1.2
+
+isp123.lab.         IN      NS      ns.isp123.lab.
+ns.isp123.lab.      IN      A       1.123.1.2
+
+isp124.lab.         IN      NS      ns.isp124.lab.
+ns.isp124.lab.      IN      A       1.124.1.2
+
+isp125.lab.         IN      NS      ns.isp125.lab.
+ns.isp125.lab.      IN      A       1.125.1.2
+
+isp126.lab.         IN      NS      ns.isp126.lab.
+ns.isp126.lab.      IN      A       1.126.1.2
+
+isp127.lab.         IN      NS      ns.isp127.lab.
+ns.isp127.lab.      IN      A       1.127.1.2
+
+isp128.lab.         IN      NS      ns.isp128.lab.
+ns.isp128.lab.      IN      A       1.128.1.2
+
+isp129.lab.         IN      NS      ns.isp129.lab.
+ns.isp129.lab.      IN      A       1.129.1.2
+
+isp130.lab.         IN      NS      ns.isp130.lab.
+ns.isp130.lab.      IN      A       1.130.1.2
+
+isp131.lab.         IN      NS      ns.isp131.lab.
+ns.isp131.lab.      IN      A       1.131.1.2
+
+isp132.lab.         IN      NS      ns.isp132.lab.
+ns.isp132.lab.      IN      A       1.132.1.2
+
+isp133.lab.         IN      NS      ns.isp133.lab.
+ns.isp133.lab.      IN      A       1.133.1.2
+
+isp134.lab.         IN      NS      ns.isp134.lab.
+ns.isp134.lab.      IN      A       1.134.1.2
+
+isp135.lab.         IN      NS      ns.isp135.lab.
+ns.isp135.lab.      IN      A       1.135.1.2
+
+isp136.lab.         IN      NS      ns.isp136.lab.
+ns.isp136.lab.      IN      A       1.136.1.2
+
+isp137.lab.         IN      NS      ns.isp137.lab.
+ns.isp137.lab.      IN      A       1.137.1.2
+
+isp138.lab.         IN      NS      ns.isp138.lab.
+ns.isp138.lab.      IN      A       1.138.1.2
+
+isp139.lab.         IN      NS      ns.isp139.lab.
+ns.isp139.lab.      IN      A       1.139.1.2
+
+isp140.lab.         IN      NS      ns.isp140.lab.
+ns.isp140.lab.      IN      A       1.140.1.2
+
+isp141.lab.         IN      NS      ns.isp141.lab.
+ns.isp141.lab.      IN      A       1.141.1.2
+
+isp142.lab.         IN      NS      ns.isp142.lab.
+ns.isp142.lab.      IN      A       1.142.1.2
+
+isp143.lab.         IN      NS      ns.isp143.lab.
+ns.isp143.lab.      IN      A       1.143.1.2
+
+isp144.lab.         IN      NS      ns.isp144.lab.
+ns.isp144.lab.      IN      A       1.144.1.2
+
+isp145.lab.         IN      NS      ns.isp145.lab.
+ns.isp145.lab.      IN      A       1.145.1.2
+
+isp146.lab.         IN      NS      ns.isp146.lab.
+ns.isp146.lab.      IN      A       1.146.1.2
+
+isp147.lab.         IN      NS      ns.isp147.lab.
+ns.isp147.lab.      IN      A       1.147.1.2
+
+isp148.lab.         IN      NS      ns.isp148.lab.
+ns.isp148.lab.      IN      A       1.148.1.2
+
+isp149.lab.         IN      NS      ns.isp149.lab.
+ns.isp149.lab.      IN      A       1.149.1.2
+
+isp150.lab.         IN      NS      ns.isp150.lab.
+ns.isp150.lab.      IN      A       1.150.1.2
+
+isp151.lab.         IN      NS      ns.isp151.lab.
+ns.isp151.lab.      IN      A       1.151.1.2
+
+isp152.lab.         IN      NS      ns.isp152.lab.
+ns.isp152.lab.      IN      A       1.152.1.2
+
+isp153.lab.         IN      NS      ns.isp153.lab.
+ns.isp153.lab.      IN      A       1.153.1.2
+
+isp154.lab.         IN      NS      ns.isp154.lab.
+ns.isp154.lab.      IN      A       1.154.1.2
+
+isp155.lab.         IN      NS      ns.isp155.lab.
+ns.isp155.lab.      IN      A       1.155.1.2
+
+isp156.lab.         IN      NS      ns.isp156.lab.
+ns.isp156.lab.      IN      A       1.156.1.2
+
+isp157.lab.         IN      NS      ns.isp157.lab.
+ns.isp157.lab.      IN      A       1.157.1.2
+
+isp158.lab.         IN      NS      ns.isp158.lab.
+ns.isp158.lab.      IN      A       1.158.1.2
+
+isp159.lab.         IN      NS      ns.isp159.lab.
+ns.isp159.lab.      IN      A       1.159.1.2
+
+isp160.lab.         IN      NS      ns.isp160.lab.
+ns.isp160.lab.      IN      A       1.160.1.2
+
+isp161.lab.         IN      NS      ns.isp161.lab.
+ns.isp161.lab.      IN      A       1.161.1.2
+
+isp162.lab.         IN      NS      ns.isp162.lab.
+ns.isp162.lab.      IN      A       1.162.1.2
+
+isp163.lab.         IN      NS      ns.isp163.lab.
+ns.isp163.lab.      IN      A       1.163.1.2
+
+isp164.lab.         IN      NS      ns.isp164.lab.
+ns.isp164.lab.      IN      A       1.164.1.2
+
+isp165.lab.         IN      NS      ns.isp165.lab.
+ns.isp165.lab.      IN      A       1.165.1.2
+
+isp166.lab.         IN      NS      ns.isp166.lab.
+ns.isp166.lab.      IN      A       1.166.1.2
+
+isp167.lab.         IN      NS      ns.isp167.lab.
+ns.isp167.lab.      IN      A       1.167.1.2
+
+isp168.lab.         IN      NS      ns.isp168.lab.
+ns.isp168.lab.      IN      A       1.168.1.2
+
+isp169.lab.         IN      NS      ns.isp169.lab.
+ns.isp169.lab.      IN      A       1.169.1.2
+
+isp170.lab.         IN      NS      ns.isp170.lab.
+ns.isp170.lab.      IN      A       1.170.1.2
+
+isp171.lab.         IN      NS      ns.isp171.lab.
+ns.isp171.lab.      IN      A       1.171.1.2
+
+isp172.lab.         IN      NS      ns.isp172.lab.
+ns.isp172.lab.      IN      A       1.172.1.2
+
+isp173.lab.         IN      NS      ns.isp173.lab.
+ns.isp173.lab.      IN      A       1.173.1.2
+
+isp174.lab.         IN      NS      ns.isp174.lab.
+ns.isp174.lab.      IN      A       1.174.1.2
+
+isp175.lab.         IN      NS      ns.isp175.lab.
+ns.isp175.lab.      IN      A       1.175.1.2
+
+isp176.lab.         IN      NS      ns.isp176.lab.
+ns.isp176.lab.      IN      A       1.176.1.2
+
+isp177.lab.         IN      NS      ns.isp177.lab.
+ns.isp177.lab.      IN      A       1.177.1.2
+
+isp178.lab.         IN      NS      ns.isp178.lab.
+ns.isp178.lab.      IN      A       1.178.1.2
+
+isp179.lab.         IN      NS      ns.isp179.lab.
+ns.isp179.lab.      IN      A       1.179.1.2
+
+isp180.lab.         IN      NS      ns.isp180.lab.
+ns.isp180.lab.      IN      A       1.180.1.2
+
+isp181.lab.         IN      NS      ns.isp181.lab.
+ns.isp181.lab.      IN      A       1.181.1.2
+
+isp182.lab.         IN      NS      ns.isp182.lab.
+ns.isp182.lab.      IN      A       1.182.1.2
+
+isp183.lab.         IN      NS      ns.isp183.lab.
+ns.isp183.lab.      IN      A       1.183.1.2
+
+isp184.lab.         IN      NS      ns.isp184.lab.
+ns.isp184.lab.      IN      A       1.184.1.2
+
+isp185.lab.         IN      NS      ns.isp185.lab.
+ns.isp185.lab.      IN      A       1.185.1.2
+
+isp186.lab.         IN      NS      ns.isp186.lab.
+ns.isp186.lab.      IN      A       1.186.1.2
+
+isp187.lab.         IN      NS      ns.isp187.lab.
+ns.isp187.lab.      IN      A       1.187.1.2
+
+isp188.lab.         IN      NS      ns.isp188.lab.
+ns.isp188.lab.      IN      A       1.188.1.2
+
+isp189.lab.         IN      NS      ns.isp189.lab.
+ns.isp189.lab.      IN      A       1.189.1.2
+
+isp190.lab.         IN      NS      ns.isp190.lab.
+ns.isp190.lab.      IN      A       1.190.1.2
+
+isp191.lab.         IN      NS      ns.isp191.lab.
+ns.isp191.lab.      IN      A       1.191.1.2
+
+isp192.lab.         IN      NS      ns.isp192.lab.
+ns.isp192.lab.      IN      A       1.192.1.2
+
+isp193.lab.         IN      NS      ns.isp193.lab.
+ns.isp193.lab.      IN      A       1.193.1.2
+
+isp194.lab.         IN      NS      ns.isp194.lab.
+ns.isp194.lab.      IN      A       1.194.1.2
+
+isp195.lab.         IN      NS      ns.isp195.lab.
+ns.isp195.lab.      IN      A       1.195.1.2
+
+isp196.lab.         IN      NS      ns.isp196.lab.
+ns.isp196.lab.      IN      A       1.196.1.2
+
+isp197.lab.         IN      NS      ns.isp197.lab.
+ns.isp197.lab.      IN      A       1.197.1.2
+
+isp198.lab.         IN      NS      ns.isp198.lab.
+ns.isp198.lab.      IN      A       1.198.1.2
+
+isp199.lab.         IN      NS      ns.isp199.lab.
+ns.isp199.lab.      IN      A       1.199.1.2
+
+isp200.lab.         IN      NS      ns.isp200.lab.
+ns.isp200.lab.      IN      A       1.200.1.2
+

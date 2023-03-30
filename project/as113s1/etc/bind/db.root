@@ -1,0 +1,4 @@
+.              IN      NS      ROOT-SERVER.
+ROOT-SERVER.   IN      A       1.0.1.2
+
+
